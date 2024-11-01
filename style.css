@@ -1,0 +1,110 @@
+/* Styles pour le body */
+body {
+    background-color: #f7f9fc;
+    font-family: "Roboto", sans-serif;
+    color: #2e2e2e;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Styles pour les en-têtes */
+h1, h2, h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #333333;
+    line-height: 1.3;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #004aad;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+    color: #005bb5;
+    margin-bottom: 0.4em;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #666666;
+    margin-bottom: 0.3em;
+}
+
+/* Styles pour les liens */
+a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #004aad;
+}
+
+/* Styles pour les images circulaires */
+.img-circle {
+    border-radius: 50%; /* Arrondit l'image pour la rendre circulaire */
+    width: 200px; /* Largeur fixe de l'image */
+    height: auto; /* Hauteur ajustée automatiquement pour garder les proportions */
+}
+
+/* Styles pour le lien de type bouton */
+.button {
+    background-color: #004aad; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement intérieur */
+    border-radius: 5px; /* Coins arrondis */
+    text-decoration: none; /* Pas de soulignement */
+    display: inline-block; /* Pour appliquer les propriétés de padding */
+}
+
+/* Effet au survol du bouton */
+.button:hover {
+    background-color: #005bb5; /* Couleur de fond au survol */
+}
+
+/* Styles pour les sections de carte blanche */
+.card-white {
+    background: white; /* Couleur de fond des cartes */
+    padding: 30px; /* Espacement intérieur */
+    border: 1px solid lightgrey; /* Bordure légère */
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    margin: 20px 0; /* Espacement entre les cartes */
+}
+
+/* Styles pour la liste horizontale */
+.list-inline {
+    list-style: none; /* Supprime les puces */
+    padding-left: 0; /* Supprime le rembourrage à gauche */
+}
+
+.list-inline > li {
+    display: inline; /* Affiche les éléments de liste sur une seule ligne */
+    padding: 0 20px; /* Ajoute de l'espacement à gauche et à droite entre les éléments */
+}
+
+/* Requêtes médias pour un design réactif */
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+    }
+}
+
